@@ -24,7 +24,7 @@
         </ul>
     </nav>
     <section>
-        <h1>PÁGINA DE PRUEBA</h1>
+        <h1>PÁGINA DE PRUEBA 2</h1>
     </section>
 </body>
 </html>
