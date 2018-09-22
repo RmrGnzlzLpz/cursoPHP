@@ -53,20 +53,14 @@
     <header>
         <h1>LOGOTIPO</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="#">Inicio</a>
-            </li>
-            <li><a href="#">Nosotros</a>
-            </li>
-            <li><a href="#">Servicio</a>
-            </li>
-            <li><a href="#">Contáctenos</a>
-            </li>
-        </ul>
-    </nav>
+    <?php
+    include "modules/navegacion.php";
+    ?>
     <section>
-        <h1>PÁGINA DE INICIO</h1>
+        <?php
+        $mvc = new MvcController();
+        $mvc -> enlacesPaginasController();
+        ?>
     </section>
 </body>
 </html>
